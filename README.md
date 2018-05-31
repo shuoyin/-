@@ -1,1 +1,3 @@
-# -
+**NLP入门课程**:斯坦福CS224N,[课程视频](https://www.bilibili.com/video/av13383754),[课程网站](http://web.stanford.edu/class/cs224n/syllabus.html)<br>
+**词向量(可以不看)**: [word2vec](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf), [Glove](http://nlp.stanford.edu/pubs/glove.pdf)<br>
+**neural machine translation**: [seq2seq learning with neural networks](https://arxiv.org/pdf/1409.3215.pdf),第一篇用seq2eq模型做机器翻译的论文,两个LSTM一个做encoder,一个做decoder; [NMT by jointly learning to align and translate](https://arxiv.org/pdf/1409.0473.pdf),第一篇用attention做机器翻译的论文,对于attention的简单解释可以看这篇博客的[attention interface](https://distill.pub/2016/augmented-rnns/#attentional-interfaces)部分;[word+char level embedding](https://arxiv.org/abs/1604.00788)采用char level的embedding方法,解决了遇到没见过的单词的问题(open vocabulary)<br>
